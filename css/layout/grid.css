@@ -1,0 +1,47 @@
+
+.activities-container {
+    /*basarme en esto para hacer lo de la pantalla*/
+    display: grid;
+    width: 80vw;
+    margin: 2rem auto;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+}
+
+.activity {
+    border-radius: 2rem;
+    background: var(--clr-white);
+    border-radius: 2 rem;
+    display: grid;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.in-touch {
+    display: grid;
+    /*se puede trabajar en columnas*/
+    align-items: center;
+    align-content: center;
+    margin-left: 3rem;
+}
+
+.subscribe {
+    border-radius: 2rem;
+    background: var(--clr-inner-bg);
+}
+
+.cta-container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+
+.cta-app-container {
+    display: flex;
+    gap: .5rem;
+}
+
+.destinations-container {
+    text-align: center;
+}
